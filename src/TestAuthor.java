@@ -1,8 +1,10 @@
-public class aaa {
+public class TestAuthor {
 
     public static void main(String[] args) {
         Author anAuthor = new Author("Tan Ah Teck", "ahteck@somewhere.com", 'm');
-        anAuthor.toString()
+        System.out.println(anAuthor.toString());
+        anAuthor.setEmail("paul@nowhere.com");
+        System.out.println(anAuthor);
     }
 
 
